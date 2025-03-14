@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color:#272727;
+    color: #9d8365;
+    display: flex;
+    align-items: center;
+    height: 14vh;
+}
+header img{
+    padding-left: 100px;
+}
+nav ul{
+    display: flex;
+    margin-left: 58%;
+}
+li{
+    margin-left: 23px;
+    font-size: 18px;
+    padding: 10px;
+    list-style: none;
+}
+
+/*-----------section one-------------*/
+.one{
+    background-image: url(image/travel.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    color: white;
+    padding-top: 200px;
+    padding-left: 230px;
+    font-size: 25px;
+    border: 5px solid #8b755f;
+    width: 30%;
+}
+
+
+/*------------section two--------------*/
+
+.about-main{
+    display: flex;
+    background-color:#1f1f1f;
+    width: 100%;
+    height: 90vh;
+    color: #9d8365;
+}
+.para{
+    font-size: 50px;
+    color: #9d8365;
+    padding-bottom: 20px;
+}
+.about h5{
+    padding-bottom: 30px;
+}
+
+.about{
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.about h1{
+    font-size: 50px;
+}
+.about h5{
+    font-size: 20px;
+}
+.about h5,p{
+    color: gray;
+}
+.about-img{
+    width: 50%;
+    padding-top: 50px;
+}
+.ex{
+    color: rgb(63, 30, 30);
+    border-radius: 25px;
+    border: 2px solid rgb(99, 58, 58);
+    display: inline-block;
+    padding: 1px 10px;
+}
+
+
+/*---------------Section three-----------*/
+
+.designer-main{
+    display: flex;
+    width: 100%;
+}
+.designer{
+    width: 50%;
+    background-color:#272727;
+}
+.row-one{
+    display: flex;
+    width: 50%;
+}
+.row-two{
+    display: flex;
+}
+.designer-img{
+    background-image: url(image/hero-bg22.jpg);
+    width: 100%;
+    
+}
+
+
+
+/*--------------section services---------*/
+
+.services{
+    background-color: #1f1f1f;
+    width: 100%;
+}
+.services h1{
+    padding-top: 60px;
+}
+.services-img{
+    display: flex;
+    padding: 70px;
+    justify-content: space-around;
+    
+}
+.services h1{
+    color: #9d8365;
+    font-size: 40px;
+    padding: 30px;
+    padding-top: 70px;
+    
+}
+.ser{
+    background-color: black;
+    color: white;
+}
+.ser h3{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.ser p{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+/*----------------five-----------------*/
+.five{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    padding-top: 90px;
+}
